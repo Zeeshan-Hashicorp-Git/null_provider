@@ -10,5 +10,8 @@ terraform {
 provider "null" {
 }
 
-resource "null_resource" "writer" {
+resource "null_resource" "hello" {
+  provisioner "local-exec" {
+    command = "echo Hello-world"
+  }
 }
