@@ -5,12 +5,12 @@ info which platform this have been tested
 # Environment used: 
 Terraform v1.3.9
 on darwin_arm64
-any pre-requirement for tool in need to do.. no need to do instructions, just links to download of tool, ie terraform
+
 # Pre-requisits 
 - Terraform v1.3.x
 - Terminal
-- 
-# how to use this repo
+
+# How to use this repo
 Clone this repo
 
 git clone https://github.com/Zeeshan-Hashicorp-Git/null_provider
@@ -22,6 +22,7 @@ terraform init
 
 terraform apply
 
+to approve changes - type yes
 
 Result - 
 
